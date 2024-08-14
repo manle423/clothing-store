@@ -2,7 +2,6 @@ import { BadRequestException, Body, Controller, Delete, Get, Headers, HttpStatus
 import { CategoriesService } from "./categories.service";
 import { CreateCategoryDto, UpdateCategoryDto } from "./dto";
 import { Response, Request } from 'express';
-
 import { AuthService } from "../auth/auth.service";
 
 @Controller('categories')

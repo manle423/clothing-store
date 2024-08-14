@@ -16,7 +16,7 @@ export class UsersController {
       data: users,
     });
   }
-
+  
   @Get(':id')
   async getUser(@Param('id') id: number, @Res() res: Response) {
     try {
